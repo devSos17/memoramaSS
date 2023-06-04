@@ -27,16 +27,15 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+
+    <ComponenteNuevo/> 
   </div>
 </template>
 
-<script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
+<script setup>
+import ComponenteNuevo from './ComponenteNuevo.vue';
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
