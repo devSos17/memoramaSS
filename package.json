@@ -13,6 +13,7 @@
   "dependencies": {
     "aa-sqlite": "^1.0.29",
     "core-js": "^3.8.3",
+    "mathjax": "^3.2.2",
     "sqlite3": "^5.1.6",
     "vue": "^3.2.13"
   },
